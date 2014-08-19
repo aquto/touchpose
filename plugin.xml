@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="com.aquto.cordova.touchpose"
+      version="0.0.1">
+
+    <name>Touchposé</name>
+    <description>Adds Touchposé resource files</description>
+    <license>MIT</license>
+    <keywords>cordova,touchpose,touchposé</keywords>
+
+    <!-- ios -->
+    <platform name="ios">
+
+        <framework src="QuartzCore.framework" />
+
+    	<header-file src="src/ios/QTouchposeApplication.h" />
+    	<source-file src="src/ios/QTouchposeApplication.m" />
+
+    </platform>
+
+
+</plugin>
